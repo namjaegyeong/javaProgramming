@@ -1,6 +1,6 @@
 package week4;
 
-public class bitwiseOperator {
+public class BitwiseOperator {
 
 	public static int leftShift(int i, int j) { 
 			return i << j; 
@@ -10,8 +10,8 @@ public class bitwiseOperator {
 		
 		/**
 		 *  leftShift 메소드 앞에 static을 선언하셔야 
-		 *  메인 메소드 안에 객체 생성 없이 해당 메소드 호출이 가능합니다. 
-		 *  */
+		 *  메인 메소드 안에 인스턴스 생성 없이 해당 메소드 호출이 가능합니다. 
+		 */
 		
 			int i = 4, j = 2; 
 			i = leftShift(i,j); 

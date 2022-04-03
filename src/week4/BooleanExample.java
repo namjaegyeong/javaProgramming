@@ -1,11 +1,11 @@
 package week4;
 
-public class booleanExample {
+public class BooleanExample {
 	
 	public static void main(String[] args) {
 	
 		/**
-		 *  boolean 변수 타입은 true(1) 또는 false(0) 값만 받습니다.
+		 *  boolean 변수 타입은 true 또는 false 값만 받습니다.
 		 *  */
 		
 		int number = 4;
