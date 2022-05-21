@@ -22,7 +22,7 @@ public class assign3 {
 		org1.showSugarContent();
 		
 		FruitBox fBox2 = new FruitBox();
-		fBox1.store("오렌지");
+		fBox2.store("오렌지");
 		Orange org2 = (Orange)fBox2.pullOut();	
 		org2.showSugarContent();
 	}
